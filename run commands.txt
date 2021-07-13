@@ -1,0 +1,11 @@
+
+************
+1)gcc main.c -o main lm
+2)gcc  hist.c -o hist -lm
+3)gcc  gfilter.c -o gfilter -lm
+4)./main (there might be some errors try again if error happened)
+
+*******
+
+gcc -std=c17 -Wall hist.c -o hist -lm (Ignore this)
+
